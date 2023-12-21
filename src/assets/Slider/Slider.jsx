@@ -12,41 +12,46 @@ const Slider = () => {
   return (
     <div >
       <Parallax className="container" ref={parallax} pages={3} horizontal>
-        <ParallaxLayer offset={0} speed={0.6} onClick={() => scroll(2)}>
-          <img className="bg-image" src="https://images.unsplash.com/photo-1505832018823-50331d70d237?q=80&w=1816&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <ParallaxLayer offset={0} speed={0.2} onClick={() => scroll(2)}>
+          <img className="bg-image" src="https://images7.alphacoders.com/536/thumb-1920-536269.jpg" alt="" />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0} factor={1.2} speed={0.2} onClick={() => scroll(1)}>
+        <ParallaxLayer offset={0} factor={1.2} speed={1} onClick={() => scroll(1)}>
           <div className={`divider`} />
         </ParallaxLayer>
 
         <ParallaxLayer className={`text number`} offset={0} speed={0.3}>
-          <span>0{1}</span>
+          <span>The</span>
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={0.2}  onClick={() => scroll(0)}>
-        <img className="bg-image" src="https://plus.unsplash.com/premium_photo-1671229456411-659ff6049231?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <img className="bg-image" src="https://www.pixground.com/wp-content/uploads/2023/09/Great-Wall-Of-China-Sunset-4K-Wallpaper-jpg.webp" alt="" />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={0.6} factor={1.2} onClick={() => scroll(2)}>
+        <ParallaxLayer offset={1} speed={1} factor={1.2} onClick={() => scroll(2)}>
         <div className={`divider`} />
         </ParallaxLayer>
 
         <ParallaxLayer className={`text number`} offset={1} speed={0.3}>
-          <span>0{2}</span>
+          <span>Wonders</span>
         </ParallaxLayer>
 
         <ParallaxLayer offset={2} speed={0.2} onClick={() => scroll(1)}>
-        <img className="bg-image" src="https://images.unsplash.com/photo-1511300636408-a63a89df3482?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <img className="bg-image" src="https://images6.alphacoders.com/458/458510.jpg" alt="" />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2} speed={0.6} factor={1.2} onClick={() => scroll(0)}>
+        <ParallaxLayer offset={2} speed={1} factor={1.2} onClick={() => scroll(0)}>
         <div className={`divider`} />
         </ParallaxLayer>
 
         <ParallaxLayer className={`text number`} offset={2} speed={0.3}>
-          <span>0{3}</span>
+          <span>of world</span>
         </ParallaxLayer>
+
+
+
+
+        
       </Parallax>
     </div>
   );
