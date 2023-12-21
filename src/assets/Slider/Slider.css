@@ -1,0 +1,40 @@
+.container > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  pointer-events: none;
+  justify-content: start !important;
+  font-family: "Kanit", sans-serif;
+  line-height: 0px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+.number {
+  font-size: 300px;
+  color: #a7a9b0;
+}
+
+.number span {
+  display: inline-block;
+  position: relative;
+}
+
+
+.divider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.574);
+  clip-path: polygon(59% 0, 100% 0%, 75% 100%, 33% 100%);
+  object-fit: cover;
+}
+
+.bg-image {
+  object-fit: cover;
+  width: 100%;
+}
